@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "cwt9x+G+CC9emJpwRkLICPqKAms4RGpXPbzxCblkS5/sdxdAftidRdZ9xyf7wgWX8nmhH31+mbv0ZLReGK4sBg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\kevin\\source\\repos\\Collections-overerving\\Collections-overerving\\Collections-overerving.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kevin\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\kevin\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
