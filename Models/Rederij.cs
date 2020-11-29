@@ -5,11 +5,11 @@ using System.Text;
 
 namespace Collections_overerving.Models
 {
-    class Rederij
+    public class Rederij
     {
         #region
         public string Naam { get; set; }
-        public Vloot[] Vloten { get; set; }
+        public Dictionary<string, Vloot> Vloten { get; set; } = new Dictionary<string, Vloot>();
         public string[] Havens { get; set; }
         #endregion
         public Rederij() { }
@@ -17,9 +17,8 @@ namespace Collections_overerving.Models
         {
             Naam = _naam;
         }
-        public Rederij(string _naam, Vloot[] _vloten, string[] _havens) : this(_naam)
+        public Rederij(string _naam, string[] _havens) : this(_naam)
         {
-            Vloten = _vloten;
             Havens = _havens;
             Array.Sort(Havens);
             
@@ -27,8 +26,14 @@ namespace Collections_overerving.Models
         #region Methodes
         public Vloot Get_Vloot_by_name(string vlootNaam)
         {
-            return Vloten.FirstOrDefault(x => x.Naam == vlootNaam);
+            return Vloten[vlootNaam];
         }
+        public void Verplaats_schip(string schip,string vloot1,string vloot2)
+        {
+            Vloten[vloot2].Schepen.Add(schip, Vloten[vloot1].Schepen[schip]);
+            Vloten[vloot1].Schepen.Remove(schip);
+        }
+        
         #endregion
     }
 }

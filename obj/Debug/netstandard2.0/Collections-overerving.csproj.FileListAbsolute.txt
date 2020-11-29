@@ -1,0 +1,9 @@
+C:\Users\kevin\source\repos\Collections-overerving\Collections-overerving\obj\Debug\netstandard2.0\Collections-overerving.csprojAssemblyReference.cache
+C:\Users\kevin\source\repos\Collections-overerving\Collections-overerving\obj\Debug\netstandard2.0\Collections-overerving.AssemblyInfoInputs.cache
+C:\Users\kevin\source\repos\Collections-overerving\Collections-overerving\obj\Debug\netstandard2.0\Collections-overerving.AssemblyInfo.cs
+C:\Users\kevin\source\repos\Collections-overerving\Collections-overerving\obj\Debug\netstandard2.0\Collections-overerving.csproj.CoreCompileInputs.cache
+C:\Users\kevin\source\repos\Collections-overerving\Collections-overerving\bin\Debug\netstandard2.0\Collections-overerving.deps.json
+C:\Users\kevin\source\repos\Collections-overerving\Collections-overerving\bin\Debug\netstandard2.0\Collections-overerving.dll
+C:\Users\kevin\source\repos\Collections-overerving\Collections-overerving\bin\Debug\netstandard2.0\Collections-overerving.pdb
+C:\Users\kevin\source\repos\Collections-overerving\Collections-overerving\obj\Debug\netstandard2.0\Collections-overerving.dll
+C:\Users\kevin\source\repos\Collections-overerving\Collections-overerving\obj\Debug\netstandard2.0\Collections-overerving.pdb

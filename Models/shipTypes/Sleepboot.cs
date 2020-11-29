@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Collections_overerving.Models
 {
-    class Sleepboot : Schip
+    public class Sleepboot : Schip
     {
         #region Attributes
         #endregion

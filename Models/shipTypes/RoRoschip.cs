@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Collections_overerving.Models
 {
-    class RoRoschip : Schip
+    public class RoRoschip : Schip
     {
         #region Attributes
         public int Aantal_autos { get; set; }
@@ -16,6 +16,10 @@ namespace Collections_overerving.Models
             Aantal_autos = _aantal_autos;
             Aantal_trucks = _aantal_trucks;
             Cargowaarde = _cargowaarde;
+        }
+        public override string ToString()
+        {
+            return base.ToString() + "Dit is een RoRoschip met " + Aantal_autos + " aantal autos en " + Aantal_trucks + "aantal trucks, de cargowaarde is:" + Cargowaarde;
         }
     }
 }

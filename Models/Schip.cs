@@ -1,8 +1,9 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Collections_overerving
 {
-    public class Schip
+    public abstract class Schip
     {
         #region Attributes
         public double Lengte { get; set; }
@@ -17,6 +18,10 @@ namespace Collections_overerving
             Breedte = _breedte;
             Tonnage = _tonnage;
             Naam = _naam;
+        }
+        public override string ToString()
+        {
+            return "Schip" + Naam + ", dit schip is  " + Lengte + " lang,  " + Breedte + " breedt en heeft een tonnage van:" + Tonnage;
         }
     }
 }

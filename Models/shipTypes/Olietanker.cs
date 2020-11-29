@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Collections_overerving.Models
 {
-    class Olietanker : Schip
+    public class Olietanker : Schip
     {
         #region Attributes
         public double Cargowaarde { get; set; }
@@ -17,5 +17,10 @@ namespace Collections_overerving.Models
             Volume = _volume;
             Lading = _lading;
         }
+        public override string ToString()
+        {
+            return base.ToString() + "Dit is een Olietanker met een cargowaarde van:" + Cargowaarde + " en een volume van: " + Volume + ", de lading is:" + Lading.ToString();
+        }
+
     }
 }
